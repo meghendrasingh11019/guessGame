@@ -6,9 +6,6 @@ read guess
 echo "**********************************************"
 
 number_of_files=$(ls . | wc -l)     # To count number of files in directory
-#echo $number_of_files               # Assign value to a variable
-flag=true
-
 
 while true
 do
@@ -22,7 +19,6 @@ do
         echo "To high. Please try again."
     fi
 
-    #echo "Please type number of files in this directory?"
     read guess
     echo "**********************************************"
 
