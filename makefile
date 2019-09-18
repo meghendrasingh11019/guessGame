@@ -5,7 +5,7 @@ all: README.md
 README.md:
 	echo  "Coursera Project: guessGame  " > README.md  
 	date +%c >> README.md
-	echo "  " >> README.md
+	echo " " >> README.md
 	wc -l guessinggame.sh >> README.md
 
 
